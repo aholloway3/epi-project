@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "R-Debugger",
+            "request": "launch",
+            "name": "Launch R Script",
+            "script": "${file}",
+            "rpath": "/usr/bin/R",
+            "rterm": "/usr/bin/Rscript"
+        }
+    ]
+}
