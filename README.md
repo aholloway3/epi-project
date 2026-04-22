@@ -34,3 +34,6 @@ echo "# Tennessee Acute Hepatitis Surveillance" > README.md
 git add README.md
 git commit -m "Add README"
 git push
+```
+
+**Status**: Complete analysis of 2016 data. Next steps: space-time cluster detection and regional comparison.
