@@ -27,9 +27,6 @@ source("hepatitis_analysis.R")
 # Data Source
 ## CDC NNDSS - Table II. Hepatitis (viral, acute)
 
-# Privacy & Data Limitations
-
-CDC NNDSS data suppresses counts for small jurisdictions to prevent re-identification. This project respects those suppression rules. County-level hepatitis data is not publicly available from CDC due to privacy concerns — a reality I'm acutely aware of given current legislative threats to PHI protections in Tennessee.
 ---
 ### Add README and Push
 
@@ -39,5 +36,8 @@ git add README.md
 git commit -m "Add README"
 git push
 ```
+## Privacy & Data Limitations
+
+### CDC NNDSS data suppresses counts for small jurisdictions to prevent re-identification. This project respects those suppression rules. County-level hepatitis data is not publicly available from CDC due to privacy concerns — a reality I'm acutely aware of given current legislative threats to PHI protections in Tennessee.
 
 **Status**: Complete analysis of 2016 data. Next steps: space-time cluster detection and regional comparison.
